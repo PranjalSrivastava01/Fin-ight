@@ -55,7 +55,7 @@ const Dashboard = (props: Props) => {
   return (
     <Box
     width="100%"
-    height="100%"
+    height={1000}
     display="grid"
     gap="1.5rem"
     sx={isAboveMediumScreens?{
